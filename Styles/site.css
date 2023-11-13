@@ -1,0 +1,347 @@
+
+body{
+    background-color: rgb(177, 183, 188);
+}
+
+header{
+    color: white;
+    font-weight: bold;
+    display: flex;
+    background-color: beige;
+    align-items: center;
+}
+
+header h1{
+    margin-top: 1.5em;
+    font-style: italic;
+    font-weight: bold;
+    max-width: 100%;
+    margin: 30px;
+    text-align: center;
+}
+
+nav{
+    background-color: beige;
+    margin: auto;
+    padding: 5px;
+    text-align: center;
+    justify-content: center;
+    display: block;
+    font-family:'Lato', sans-serif;
+}
+nav ul{
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    padding: 0;
+}
+
+nav li{
+    list-style: none;
+    margin: auto;
+    padding: 10px;
+}
+
+nav li a{
+    padding: 10px;
+    font-size: 14pt;
+    font-weight: bold;
+    color: black;
+}
+
+nav li a:hover{
+    color:  rgb(149, 156, 161);
+}
+
+h1{
+    text-align: center;
+    font-weight: bold;
+    font-family: 'Lato', sans-serif;
+}
+
+p{
+    text-align: center;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-family: 'Lato', sans-serif;
+}
+
+h2{
+    color: black;
+    font-weight: bold;
+    font-family: 'Lato', sans-serif;
+}
+
+h3{
+    border: solid;
+    border-color: rgb(251, 188, 70);
+    font-family: 'Lato', sans-serif;
+}
+
+main{
+    display: flex;
+    flex-direction: row;
+    flex-flow: row nowrap;
+    flex-grow: 1;
+    max-width: 100%;
+    padding: 0.5em;
+}
+
+section{
+    display: flex;
+    flex: 1 1;
+    flex-direction: row;
+    flex-flow: row nowrap;
+    flex-grow: 1;
+    max-width: 100%;
+    padding: 0.5em;
+}
+
+picture{
+    align-items: center;
+    max-width: 100%;
+}
+
+cite{
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-family: 'Lato', sans-serif;
+}
+
+img{
+    max-width: 100%;
+}
+
+div{
+    color: black;
+    font-weight: bold;
+}
+
+.row{
+    display: flex;
+    flex-flow: row nowrap;
+    flex: 1 1 auto;
+    align-items:center;
+}
+.hbox{
+    padding: 10px;
+    margin: 10px;
+    flex: 1 1 auto;
+    width: 100%;
+    flex-grow: 1;
+    align-items: center;
+}
+.hbox1{
+    background-color: beige;
+    width: 20em;
+    height: 15em;
+}
+.hbox2{
+    background-color: beige;
+    width: 20em;
+    height: 15em;
+}
+.hbox3{
+    background-color: beige;
+    width: 20em;
+    height: 15em;
+}
+.hbox4{
+    background-color: beige;
+}
+.hbox5{
+    background-color: beige;
+}
+
+.wbox{
+    padding: 10px;
+    margin: 10px;
+    width: 100%;
+    align-items: center;
+}
+
+.wbox1{
+    padding: 10px;
+    margin: 10px;
+    background-color: beige;
+    width: 50%;
+}
+
+.wbox2{
+    padding: 10px;
+    margin: 10px;
+    background-color: beige;
+}
+
+.wbox3{
+    padding: 10px;
+    margin: 10px;
+    flex: 1 1 auto;
+    align-items: center;
+    background-color: beige;
+}
+.wbox4{
+    padding: 10px;
+    margin: 10px;
+    flex: 1 1 auto;
+    align-items: center;
+    background-color: beige;
+}
+.wbox5{
+    padding: 10px;
+    margin: 10px;
+    flex: 1 1 auto;
+    align-items: center;
+    background-color: beige;
+}
+
+.box{
+    padding: 10px;
+    margin: 10px;
+    align-items: center;
+    width: 100%;
+}
+
+.box1{
+    background-color: beige;
+}
+
+.box2{
+    background-color: beige;
+}
+
+.pbox{
+    padding: 10px;
+    margin: 10px;
+    align-items: center;
+    width: 50%;
+}
+.pbox1{
+    background-color: beige;
+}
+.pbox2{
+    background-color: beige;
+}
+.pbox3{
+    background-color: beige;
+}
+.pbox4{
+    background-color: beige;
+}
+.pbox5{
+    background-color: beige;
+}
+.pbox6{
+    background-color: beige;
+}
+.pbox7{
+    background-color: beige;
+}
+.pbox8{
+    background-color: beige;
+}
+.pbox9{
+    background-color: beige;
+}
+.pbox10{
+    background-color: beige;
+}
+.pbox11{
+    background-color: beige;
+}
+.pbox12{
+    background-color: beige;
+}
+
+.lists{
+    background-color: beige;
+    margin: 10px;
+    width: 50%;
+}
+
+footer{
+    background-color: beige;
+    text-align: center;
+    font-weight: bold;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-family: 'Lato', sans-serif;
+    height: 20px;
+    color: black;
+    padding: 10px;
+    max-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+@media(max-width: 700px){
+    header{
+        display: flex;
+        flex-flow: column;
+        margin-left: auto;
+        margin-right: auto;
+        align-items: center;
+        height: auto;
+    }
+    main{
+        display: flex;
+        flex-flow: row nowrap;
+        flex-direction: row;
+        padding: 5px;
+        max-width: 100%;
+        align-items: center;
+        height: auto;
+    }
+    section{
+        display: flex;
+        flex-flow: column nowrap;
+        flex-direction: column;
+        padding: 5px;
+        max-width: 100%;
+        align-items:center;
+        height: auto;
+    }
+    footer{
+        display: flex;
+        flex-flow: column wrap;
+        flex-direction: column;
+        max-width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+.hidden{
+display: none;
+}
+
+button{
+    background-color: beige;
+    color: black;
+    width: 3em;
+    height: 3em;
+    font-size: larger;
+}
+
+button:hover {
+background-color: rgb(194, 194, 168);
+color: gray;
+}
+
+#carousel-previous-button{
+    margin-left: auto;
+}
+
+#carousel-next-button{
+    margin-right: auto;
+}
+
+.header{
+    display: flex;
+}
+
+.header h1{
+    flex-grow: 1;
+}
+
+.header button{
+    margin-left: 20px;
+}
