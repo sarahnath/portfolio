@@ -1,33 +1,39 @@
 
 body{
-    background-color: rgb(177, 183, 188);
+    /* background-color: rgb(177, 183, 188); */
+    background-image: linear-gradient(beige, pink)
 }
 
 header{
     color: white;
     font-weight: bold;
     display: flex;
-    background-color: beige;
+    /* background-color: white; */
     align-items: center;
+    justify-content: center;
 }
 
 header h1{
     margin-top: 1.5em;
-    font-style: italic;
     font-weight: bold;
     max-width: 100%;
     margin: 30px;
     text-align: center;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Playfair Display', serif;
 }
 
 nav{
-    background-color: beige;
+    /* background-color: white; */
     margin: auto;
     padding: 5px;
     text-align: center;
     justify-content: center;
     display: block;
-    font-family:'Lato', sans-serif;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Playfair Display', serif;
 }
 nav ul{
     display: flex;
@@ -50,7 +56,7 @@ nav li a{
 }
 
 nav li a:hover{
-    color:  rgb(149, 156, 161);
+    color:  rgb(19, 60, 94);
 }
 
 h1{
@@ -61,6 +67,7 @@ h1{
 
 p{
     text-align: center;
+    align-items: center;
     font-family: 'IBM Plex Sans', sans-serif;
     font-family: 'Lato', sans-serif;
 }
@@ -72,8 +79,8 @@ h2{
 }
 
 h3{
-    border: solid;
-    border-color: rgb(251, 188, 70);
+    border-radius: 10cm;
+    border-color: pink;
     font-family: 'Lato', sans-serif;
 }
 
@@ -130,26 +137,24 @@ div{
     align-items: center;
 }
 .hbox1{
-    background-color: beige;
     width: 20em;
     height: 15em;
 }
 .hbox2{
-    background-color: beige;
     width: 20em;
     height: 15em;
 }
 .hbox3{
-    background-color: beige;
+    /* background-color: white; */
     width: 20em;
     height: 15em;
 }
-.hbox4{
+/* .hbox4{
     background-color: beige;
 }
 .hbox5{
-    background-color: beige;
-}
+    background-color: white;
+} */
 
 .wbox{
     padding: 10px;
@@ -200,13 +205,13 @@ div{
     width: 100%;
 }
 
-.box1{
+/* .box1{
     background-color: beige;
 }
 
 .box2{
     background-color: beige;
-}
+} */
 
 .pbox{
     padding: 10px;
@@ -258,7 +263,7 @@ div{
 }
 
 footer{
-    background-color: beige;
+    /* background-color: beige; */
     text-align: center;
     font-weight: bold;
     font-family: 'IBM Plex Sans', sans-serif;
