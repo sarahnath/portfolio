@@ -4,11 +4,56 @@ body{
     background-image: linear-gradient(beige, pink)
 }
 
+.rowyone{
+    display: flex;
+    /* flex-flow: nowrap; */
+}
+
+.wireframe-text{
+    display: flex;
+    flex-flow: nowrap;
+    width: 50%
+}
+
+.wireframe-images{
+    display: flex;
+    flex-flow: nowrap;
+    width: 50%
+}
+
+img{
+    opacity: 1.0;
+}
+
+img:hover {
+    opacity: 0.5;
+}
+
+.jump{
+    display: flex;
+    align-items: center;
+    padding: 30px;
+    flex-flow: center;
+
+}
+
+.flex-cont{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 135px;
+    margin: 10px;
+}
+
+.flex-cont > div {
+    margin: 10px;
+    padding: 10px;
+}
+
 header{
     color: white;
     font-weight: bold;
     display: flex;
-    /* background-color: white; */
     align-items: center;
     justify-content: center;
 }
@@ -25,7 +70,6 @@ header h1{
 }
 
 nav{
-    /* background-color: white; */
     margin: auto;
     padding: 5px;
     text-align: center;
@@ -163,6 +207,14 @@ div{
     align-items: center;
 }
 
+.formy{
+    margin: auto;
+    width: 640px; 
+    padding: 50px;
+    font-family: 'Avenir', sans-serif; 
+    color: #33475b;  
+}
+
 .wbox1{
     padding: 10px;
     margin: 10px;
@@ -217,9 +269,10 @@ div{
     padding: 10px;
     margin: 10px;
     align-items: center;
-    width: 50%;
+    width: 300px;
+    height: 300px;
 }
-.pbox1{
+/* .pbox1{
     background-color: beige;
 }
 .pbox2{
@@ -254,12 +307,21 @@ div{
 }
 .pbox12{
     background-color: beige;
-}
+} */
 
 .lists{
     background-color: beige;
     margin: 10px;
     width: 50%;
+}
+
+.first-row{
+height: 50%
+}
+
+.knitwire{
+    background-color: rgb(21, 21, 21);
+    color: white;
 }
 
 footer{
@@ -275,6 +337,7 @@ footer{
     margin-left: auto;
     margin-right: auto;
 }
+
 
 
 @media(max-width: 700px){
@@ -314,6 +377,10 @@ footer{
     }
 }
 
+.projies{
+display: flex;
+}
+
 .hidden{
 display: none;
 }
@@ -350,3 +417,4 @@ color: gray;
 .header button{
     margin-left: 20px;
 }
+
