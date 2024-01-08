@@ -367,6 +367,11 @@ footer{
         align-items:center;
         height: auto;
     }
+    .flex-cont{
+        display: flex;
+        flex-flow: wrap;
+        justify-content: center;
+    }
     footer{
         display: flex;
         flex-flow: column wrap;
