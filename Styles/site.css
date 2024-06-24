@@ -1,7 +1,173 @@
+/* :root {
+    --bg-color: white;
+    --p-color: deeppink;
+    --a-color: Teal;
+    --a-hover-color: LightSeaGreen;
+    --citation-bg-color: white;
+    --citation-p-color: Salmon;
+    --citation-a-color: MediumVioletRed;
+    --citation-a-hover-color: DeepPink;
+  }
+  
+  html {
+    box-sizing: border-box;
+  }
+  
+  *, *::before, *::after {
+    box-sizing: inherit;
+  }
+  
+  *:focus {
+    outline: none;
+  }
+
+  * {
+    font-family: monaco, courier;
+  }
+  
+  body {
+    margin: 0;
+    padding: 0;
+  }
+  
+  .wrapper {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    overflow: auto;
+    background: var(--bg-color);
+  }
+  
+  /* 
+  @media (min-width: 768px) {
+    .wrapper {
+      background: palegreen;
+    }
+  }
+  */
+/*   
+  .ciao-frames {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    justify-items: center;
+    justify-content: space-evenly;
+    width: 80%;
+    max-width: 800px;
+    height: 400px;
+  }
+  .frame { */
+    /* width: 400px;
+    height: 200px;
+    margin: 2px;
+    display: block;
+    border: 1px solid deeppink;
+    background: transparent url("https://assets.codepen.io/219932/ciao-frames.png") 0 0 no-repeat;
+  }
+  #one {
+    -webkit-animation: letterS 1s steps(12) infinite;
+            animation: letterS 1s steps(12) infinite;
+  }
+  #two {
+    -webkit-animation: letterA 1s steps(12) infinite;
+            animation: letterA 1s steps(12) infinite;
+  }
+  #three {
+    -webkit-animation: letterA 1s steps(12) infinite;
+            animation: letterA 1s steps(12) infinite;
+  }
+  #four {
+    -webkit-animation: letterO 1s steps(12) infinite;
+            animation: letterO 1s steps(12) infinite;
+  }
+  
+  @keyframes letterS {
+    0% {
+      background-position: 0 0;
+    }
+    100% {
+      background-position: 0 -2400px;
+    }
+  }
+  
+  @keyframes letterA {
+    0% {
+      background-position: -400px 0;
+    }
+    100% {
+      background-position: -400px -2400px;
+    }
+  }
+  
+  @keyframes letterA {
+    0% {
+      background-position: -800px 0;
+    }
+    100% {
+      background-position: -800px -2400px;
+    }
+  }
+  
+  @keyframes letterC {
+    0% {
+      background-position: -1200px 0;
+    }
+    100% {
+      background-position: -1200px -2400px;
+    }
+  } */
+  
+ /* citation */
+/* .citation {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    z-index: 100;
+    background: var(--citation-bg-color);
+  }
+  
+  .citation p {
+    margin: 0;
+    padding: 10px;
+    font-size: 12px;
+    color: var(--citation-p-color);
+  }
+  
+  .citation p a {
+    color: var(--citation-a-color);
+    cursor: pointer;
+  }
+  
+  .citation p a:hover {
+    color: var(--citation-a-hover-color);
+  }
+   */ */
+
+/* bigshot one font */
+/* @import url(https://fonts.googleapis.com/css?family=Cabin+Condensed); */
+
+body,html{margin:0;padding:0;height:100%;}
+body{
+  background: #f1f1f1;
+  background-size:cover;
+  font-family: 'Cabin Condensed', sans-serif;
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  align-items:center;
+}
+svg{font-weight:bold;max-width:600px;height:100%;}
+
+svg {
+    padding: 150px;
+}
 
 body{
     /* background-color: rgb(177, 183, 188); */
-    background-image: linear-gradient(beige, pink)
+    background-image: linear-gradient(pink)
 }
 
 .rowyone{
@@ -64,9 +230,10 @@ header h1{
     max-width: 100%;
     margin: 30px;
     text-align: center;
-    font-family: 'IBM Plex Sans', sans-serif;
-    font-family: 'Lato', sans-serif;
-    font-family: 'Playfair Display', serif;
+    /* font-family: 'IBM Plex Sans', sans-serif;
+    font-family: 'Lato', sans-serif; */
+    /* font-family: 'Playfair Display', serif; */
+    font-family: 'Cabin Condensed', sans-serif;
 }
 
 nav{
@@ -75,9 +242,9 @@ nav{
     text-align: center;
     justify-content: center;
     display: block;
-    font-family: 'IBM Plex Sans', sans-serif;
-    font-family: 'Lato', sans-serif;
-    font-family: 'Playfair Display', serif;
+    text-align: center;
+    font-weight: bold;
+    font-family: 'Cabin Condensed', sans-serif;
 }
 nav ul{
     display: flex;
@@ -95,18 +262,18 @@ nav li{
 nav li a{
     padding: 10px;
     font-size: 14pt;
-    font-weight: bold;
+    /* font-weight: bold; */
     color: black;
 }
 
 nav li a:hover{
-    color:  rgb(19, 60, 94);
+    color:  deeppink;
 }
 
 h1{
     text-align: center;
     font-weight: bold;
-    font-family: 'Lato', sans-serif;
+    font-family: 'Cabin Condensed', sans-serif;
 }
 
 p{
@@ -426,5 +593,9 @@ color: gray;
 
 .header button{
     margin-left: 20px;
+}
+
+.header-two {
+    padding-bottom: 100px;
 }
 
