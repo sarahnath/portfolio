@@ -166,8 +166,8 @@ svg {
 }
 
 body{
-    /* background-color: rgb(177, 183, 188); */
-    background-image: linear-gradient(pink)
+    background-color: #f1f1f1;
+    /* background-image: linear-gradient(rgb(21, 51, 93)) */
 }
 
 .rowyone{
@@ -207,7 +207,7 @@ img:hover {
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 135px;
+    /* padding: 135px; */
     margin: 10px;
     flex-wrap: wrap;
 }
@@ -432,13 +432,6 @@ div{
     width: 100%;
 }
 
-/* .box1{
-    background-color: beige;
-}
-
-.box2{
-    background-color: beige;
-} */
 
 .pbox{
     padding: 10px;
@@ -447,42 +440,6 @@ div{
     width: 300px;
     height: 300px;
 }
-/* .pbox1{
-    background-color: beige;
-}
-.pbox2{
-    background-color: beige;
-}
-.pbox3{
-    background-color: beige;
-}
-.pbox4{
-    background-color: beige;
-}
-.pbox5{
-    background-color: beige;
-}
-.pbox6{
-    background-color: beige;
-}
-.pbox7{
-    background-color: beige;
-}
-.pbox8{
-    background-color: beige;
-}
-.pbox9{
-    background-color: beige;
-}
-.pbox10{
-    background-color: beige;
-}
-.pbox11{
-    background-color: beige;
-}
-.pbox12{
-    background-color: beige;
-} */
 
 .lists{
     background-color: beige;
@@ -512,7 +469,6 @@ height: 50%
 }
 
 footer{
-    /* background-color: beige; */
     text-align: center;
     font-weight: bold;
     font-family: 'IBM Plex Sans', sans-serif;
@@ -521,8 +477,10 @@ footer{
     color: black;
     padding: 10px;
     max-width: 100%;
-    margin-left: auto;
+    /* margin-left: auto;
     margin-right: auto;
+    margin-top: auto; */
+    margin-bottom: 10px;
 }
 
 
